@@ -1,0 +1,26 @@
+main {
+    margin: 0 30px;
+    padding: 10px;
+    background: #833ab4;
+    background: radial-gradient(#fd1d1d 50%, #fcb045 100%);
+    border-radius: 20px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    max-width:1000px;
+    max-height: 800px;
+}
+
+h1 {
+    color: #e7cf44;
+}
+
+button {
+    background: #fcb045;
+}
