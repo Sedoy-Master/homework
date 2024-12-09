@@ -1,0 +1,27 @@
+main{
+    background: #2e2c2c;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+
+.square {
+    background: #a19f9f;
+    min-height: 100px;
+    max-width: 600px;
+    border-radius: 10px;
+    position: fixed;
+    left: 50%;
+    right: 50px;
+    bottom: 100px;
+}
+
+.ball {
+    width: 100px;
+    height: 100px;
+    background: #ff0000;
+    border-radius: 100%;
+    position: fixed;
+    left: 60%;
+    bottom: 150px;
+}
