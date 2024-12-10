@@ -1,0 +1,36 @@
+body {
+    background: #3a3636;
+    color: #ffffff;
+}
+
+.zag {
+    text-align: center;
+    padding-top: 60px;
+    font-size: 40px;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.zag::after {
+    content: '';
+    position: absolute;
+    right: 450px;
+    top: 55px;
+    height: 50px;
+    width: 50px;
+    border: 5px, solid #ffffff;
+    border-radius: 100%;
+    background: #4b68e9;
+}
+
+.zag::before {
+    content: '';
+    position: absolute;
+    left:450px;
+    top: 55px;
+    height: 50px;
+    width: 50px;
+    border: 5px, solid #ffffff;
+    border-radius: 100%;
+    background: #ea4a4a;
+}

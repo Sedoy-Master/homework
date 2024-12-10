@@ -1,0 +1,46 @@
+body {
+    background: #1e1d1d;
+}
+
+.content {
+    margin: 15% 25% 0 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.block {
+    margin-top: 50px;
+    ;
+    background: #808080;
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+}
+
+.loading {
+    background: #f5deb3;
+    height: 20px;
+    width: 0px;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    transition: all 2s;
+}
+
+.text {
+    color: #808080;
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+    top: 40%;
+    transition: 2s 2.5s;
+}
+
+.block:hover {
+    .text {
+        color: #2de02d;
+    }
+    .loading  {
+        width: 750px;
+    }
+}
