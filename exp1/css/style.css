@@ -1,0 +1,31 @@
+.conteiner {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+
+/* ========================================HEAD============================================ */
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.logo {}
+
+.info {}
+
+.info__start {
+    color: #b4b0b0;
+    margin-bottom: 10px;
+}
+
+.info-number {
+    text-align: end;
+}
+
+.line {
+    border: 1px solid #b4b0b0;
+}
