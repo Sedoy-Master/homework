@@ -1,0 +1,29 @@
+table {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 300px;
+    margin: 50px;
+}
+
+caption {
+    border: 1px solid #000000;
+    border-bottom: 0px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.day {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+td {
+    border: 1px solid #000000;
+        font-size: 20px;
+}
+
+.red__data {
+    color: #ff0000;
+}
