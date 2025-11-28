@@ -9,6 +9,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     padding: 20px 30px;
     gap: 10px;
     border-bottom: 1px solid #857e7e;
@@ -33,4 +34,5 @@
 .phone {
     color: #000;
     font-size: 20px;
+
 }
