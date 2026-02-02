@@ -1,0 +1,149 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.form {
+    max-width: 500px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 30px;
+    cursor: url(../img/icons8-кошачий-след-30.1.png), pointer;
+}
+
+fieldset {
+    border: 0px;
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+    cursor: url(../img/icons8-кошачий-след-30.1.png), pointer;
+}
+
+label input {
+    background: #793737;
+    border: 0px solid;
+    border-radius: 5px;
+    color: #f1e205;
+}
+
+input:focus-visible:not(.checkbox),
+.textarea:focus-visible,
+.button:focus-visible,
+.checkbox:focus-visible::after {
+    outline: 2px solid #b12121;
+    outline-offset: 1px;
+}
+
+
+.hero {
+    margin-bottom: 10px;
+}
+
+.data-form {
+    margin-bottom: 7px;
+}
+
+.name input {
+    background: #d89e9e;
+}
+
+.age input {
+    background: #b38181;
+}
+
+.number input {
+    background: #836060;
+}
+
+.email input {
+    background: #574040;
+}
+
+.email input:disabled {
+    background: #d80707;
+}
+
+.contact-form textarea {
+    background: #271d1d;
+}
+
+input:not(.checkbox) {
+    width: 100%;
+}
+
+.checkbox-mark {
+    display: inline-block;
+    padding-right: 200px;
+    margin-left: 22px;
+}
+
+.checkbox {
+    position: absolute;
+    appearance: none;
+    outline: none;
+}
+
+label.checkbox {
+    margin-left: 22px;
+}
+
+.checkbox::after {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: -22px;
+}
+
+.checkbox:checked::after {
+    background: url(../img/check-icon.svg) no-repeat center #b12121;
+}
+
+.textarea {
+    max-height: 200px;
+    min-height: 18px;
+    width: 100%;
+    resize: vertical;
+    border: 0px solid;
+    border-radius: 5px;
+    color: #f1e205;
+}
+
+.hero {
+    font-weight: 700;
+}
+
+::placeholder {
+    font-family: serif;
+    color: #f1e205;
+}
+
+.button {
+    background-color: #b12121;
+    border-radius: 10px;
+    border: 0px;
+    padding: 10px;
+    cursor: url(../img/icons8-кошачий-след-30.1.png), pointer;
+    color: #f1e205;
+}
+
+.button:hover {
+    opacity: 0.85;
+}
+
+.button:active {
+    background-color: #530f0f;
+    cursor: url(../img/icons8-кошачий-след-30.2.png), pointer;
+}
