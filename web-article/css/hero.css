@@ -1,0 +1,44 @@
+*,
+*::after,
+*::before {
+    font-family: 'Oswald' 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+
+p {
+    color: #535755;
+    font-family: Oswald, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 130%;
+    text-align: left;
+}
+
+/* .logo {
+    width: 84px;
+    height: 45px;
+} */
+
+.logo {
+    font-family: 'Ubuntu';
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.logo img {
+    padding-left: 1.4px;
+}
+
+.logo span {
+    font-size: 22px;
+}
