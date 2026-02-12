@@ -70,7 +70,7 @@ main {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 1vh 60px;
-    padding: 0px 40px 39.5px 40px;
+    padding: 0px 40px 30px 40px;
     margin-top: 0;
 }
 
@@ -93,7 +93,7 @@ main {
 
 
 .copyright {
-    padding-bottom: 40px;
+    padding: 10px 0px 40px 0px;
     color: #858e8a;
     font-family: Ubuntu;
     font-size: 14px;
