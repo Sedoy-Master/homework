@@ -463,6 +463,9 @@ details:last-child {
             -ms-flex-pack: justify;
                 justify-content: space-between;
         margin: 24px;
+                scrollbar-width: thin;
+        scrollbar-gutter: stable;
+        scrollbar-color: #3596ED;
     }
 
     .news-window {
@@ -476,5 +479,6 @@ details:last-child {
         text-align: center;
         font-size: 32px;
     }
+
 
 }
