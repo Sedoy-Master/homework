@@ -1,0 +1,163 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@media (width > 768px) {
+    .burger {
+        display: none;
+    }
+}
+
+@media (width <=768px) {
+    .burger {
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        z-index: var(--layer-3);
+        width: 24px;
+        height: 24px;
+    }
+}
+
+.burger__icon-menu-hero {
+    position: relative;
+    width: 16px;
+    height: 2px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    background-color: var(--accent-color);
+    border-radius: 10px;
+}
+
+.burger__icon-menu-hero::before {
+    content: "";
+    position: absolute;
+    top: -9px;
+    width: 23px;
+    height: 2px;
+    display: block;
+    background-color: var(--accent-color);
+    border-radius: 10px;
+}
+
+.burger__icon-menu-hero::after {
+    content: "";
+    position: absolute;
+    bottom: -9px;
+    width: 19px;
+    height: 2px;
+    display: block;
+    background-color: var(--accent-color);
+    border-radius: 10px;
+}
+
+.burger__icon-menu-hero-cross {
+    position: relative;
+    width: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.burger__icon-menu-hero-cross::before {
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 2px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    display: block;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    -webkit-transition: -webkit-transform var(--transition-time);
+    transition: -webkit-transform var(--transition-time);
+    -o-transition: transform var(--transition-time);
+    transition: transform var(--transition-time);
+    transition: transform var(--transition-time), -webkit-transform var(--transition-time);
+}
+
+/* .burger__icon-menu-hero-cross-first-line {
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 2px;
+    display: block;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    transition: transform var(--transition-time);
+} */
+
+.burger__icon-menu-hero-cross::after {
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 2px;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    display: block;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    -webkit-transition: -webkit-transform var(--transition-time);
+    transition: -webkit-transform var(--transition-time);
+    -o-transition: transform var(--transition-time);
+    transition: transform var(--transition-time);
+    transition: transform var(--transition-time), -webkit-transform var(--transition-time);
+}
+
+/* .burger__icon-menu-hero-cross-second-line {
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 2px;
+    display: block;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    transition: transform var(--transition-time);
+} */
+
+/* button.burger--open .burger__icon-menu-hero-cross-first-line {
+    transform: rotate(45deg);
+    transition: transform var(--transition-time);
+    }
+    
+    button.burger--open .burger__icon-menu-hero-cross-second-line {
+        transform: rotate(-45deg);
+        transition: transform var(--transition-time);
+        } */
+
+.burger__icon-menu,
+.burger--open .burger__icon-cross {
+    display: block;
+}
+
+.burger__icon-cross,
+.burger--open .burger__icon-menu {
+    display: none;
+}
